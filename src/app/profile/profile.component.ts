@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import{ProfileComponent}from '../profile';
+import {ServicesComponent} from '../services/services.component'
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 @Component({
   selector: 'app-profile',
