@@ -1,27 +1,41 @@
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## Author
 
-## Development server
+- Alice Mwihaki
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+- This Application is used for searching repository for certain programmers
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technology Used
 
-## Build
+- Angular
+- Typescript
+- Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## BDD
 
-## Running unit tests
+-The applications allows the user to search for a certain programmer's repo.
+ once the the user puts the user name the persons details will appear
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Development
 
-## Running end-to-end tests
+To fix any bug:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- fork the repository
+- create a new branch
+-fix the bug
+- commit and push the changes
 
-## Further help
+## Known Bugs
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Not known bugs for now
+
+## Contacts Information
+
+- for more information,questions or comments :(alicemwihaki99@gmail.com)
+
+## Licence
+
+- this project is licensed under MIT.@2019 Copyright Alice Mwihaki
