@@ -38,4 +38,4 @@ To fix any bug:
 
 ## Licence
 
-- this project is licensed under MIT.@2019 Copyright Alice Mwihaki
+- this project is licensed under MIT.@2019 Copyright Alice Mwihaki.
