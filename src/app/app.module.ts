@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { ServicesComponent } from './services/services.component';
+import { UsersService } from './service/users.service';
 import {HttpClientModule} from '@angular/common/http';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -13,16 +15,18 @@ import {HttpClientModule} from '@angular/common/http';
   declarations: [
     AppComponent,
     ProfileComponent,
-    ServicesComponent,
+    HighlightDirective,
+    
     
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [ServicesComponent],
+  providers: [UsersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

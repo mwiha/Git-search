@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from "@angular/common/http"
+import {HttpClient} from "@angular/common/http"
 import {map} from "rxjs/operators"
 
 @Injectable({
@@ -7,25 +7,29 @@ import {map} from "rxjs/operators"
 })
 export class UsersService {
   private username:string;
-  private clientid = "c356ecdee180dd53ef95";
-  private clientsecret = "acf10bc9294ccdc784414d7fb57f2fcdfb92f4ff";
+  private clientid = "0bd6d926c3744594f8b9";
+  private clientsecret = "c798b55be805550fb7ce6f7c71863dc9001055f3";
 
   constructor(private http:HttpClient) {
     console.log ("service is now ready!");
     this .username ='mwiha';
 
    }
-  
+
   
   getprofileInfo(){
-    return this.http.get("http:api.github.com/users/"+ this.username +"?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
+    return this.http.get("https://api.github.com/users/"+ this.username +"?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
     .pipe(map(res => res));
   }
 
 
   getprofileRepose(){
-    return this.http.get("http:api.github.com/users/"+ this.username +"/repos?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
+    return this.http.get("https://api.github.com/users/"+ this.username +"/repos?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
     .pipe(map(res => res));
 
+  }
+
+  updateUser(username:string){
+    this.username = username;
   }
 }
