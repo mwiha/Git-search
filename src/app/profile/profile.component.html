@@ -28,10 +28,20 @@
                         <span class="label label-default">{{profile.followers}} followers</span>
                         <span class="label label-default">following {{profile.following}}</span>
                         <span class="label label-default">{{profile.public_gist}} public_gist</span>
-                        <span class="label label-default">{{profile.repos}} followers</span>
+                        <span class="label label-default">{{profile.public_repos}} public_repos</span>
                     </p>
-                </div>
+                    <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">view prifile on github</a></p>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Repos</h3>
+                        </div>
+                        <div class="panel-body" *ngFor="let repo of repos">
+                           <p>
 
+                           </p> 
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
