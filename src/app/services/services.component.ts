@@ -17,7 +17,15 @@ export class ServicesComponent implements OnInit {
         private clientsecret='acf10bc9294ccdc784414d7fb57f2fcdfb92f4ff';
 
 
-  constructor(private http: Http) { }
+  constructor(private http: Http) { 
+    console.log ("service is now ready!");
+    this .username ='mwiha';
+  }
+
+  getprofileInfo(){
+    return this.http.get("http:api.github.com/users/"+ this.username +"?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
+    .map(res => res.json());
+  }
 
   ngOnInit() {
   }
