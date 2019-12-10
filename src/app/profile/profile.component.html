@@ -1,4 +1,4 @@
-
+<div class="container">
 <h1 class="pt-5 pb-2"><img src="https://bit.ly/2sdmMMt"> Github-Search</h1>
 <form action="">
     <div class="form-group">
@@ -37,7 +37,7 @@
                             <h2 class="panel-title rep">Repositories</h2>
                         </div>
                         <div class="panel-body rep" *ngFor="let repos of repos">
-                           <p class="" style="color:black">
+                           <p class="" style="color:brown;">
                             {{repos.name}} - Created on:<small> {{repos.created_at | date}}</small><br><a href="{{repos.html_url}}" target="_blank" class="btn btn-outline-success">View this project on github</a>
                            </p> 
                            <p appHighlight> {{repos.description}}</p>
@@ -47,6 +47,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 </div>
 </div>

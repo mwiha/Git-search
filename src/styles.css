@@ -1,13 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 
-body{
-    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://bit.ly/348BUbw") no-repeat center center/cover
- ;
- 
-}
+
 
 h1{
     font-family: Rye,cursive;
     font-size: 5rem;
+}
+.content{
+    height: 100vh;
+}
+
+.search {
+    background: mediumaquamarine;
+}
+
+body{
+   background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://bit.ly/348BUbw") no-repeat center center/cover;
 }
