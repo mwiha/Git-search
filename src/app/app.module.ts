@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { UsersService } from './service/users.service';
 import {HttpClientModule} from '@angular/common/http';
 import { HighlightDirective } from './highlight.directive';
+import { TrimStrTwo } from './date-count.pipe';
 
 
 
@@ -16,6 +17,7 @@ import { HighlightDirective } from './highlight.directive';
     AppComponent,
     ProfileComponent,
     HighlightDirective,
+    TrimStrTwo,
     
     
     

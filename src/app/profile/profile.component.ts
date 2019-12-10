@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {UsersService} from '../service/users.service'
+import {User} from "../user"
+import {Repos} from "../repos"
 // import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 @Component({
   selector: 'app-profile',
@@ -7,7 +9,7 @@ import {UsersService} from '../service/users.service'
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-      profile
+      profile;
       repos;
       username:string;
 
