@@ -9,6 +9,7 @@ import { UsersService } from './service/users.service';
 import {HttpClientModule} from '@angular/common/http';
 import { HighlightDirective } from './highlight.directive';
 import { TrimStrTwo } from './date-count.pipe';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 
@@ -18,6 +19,7 @@ import { TrimStrTwo } from './date-count.pipe';
     ProfileComponent,
     HighlightDirective,
     TrimStrTwo,
+    LandingPageComponent,
     
     
     
