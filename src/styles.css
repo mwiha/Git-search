@@ -11,10 +11,11 @@ h1{
     height: 100vh;
 }
 
-.search {
-    background: mediumaquamarine;
-}
+
 
 body{
    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://bit.ly/348BUbw") no-repeat center center/cover;
+} 
+input[type="text"] {
+    width: 70%;
 }
