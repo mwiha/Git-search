@@ -16,6 +16,12 @@
 
 ## BDD
 
+![alt](src/assets/image.png)
+
+- On the landing page click on the button and it will take you to the next page.
+
+![alt](src/assets/search.png)
+
 -The applications allows the user to search for a certain programmer's repo.
  once the the user puts the user name the persons details will appear
 
